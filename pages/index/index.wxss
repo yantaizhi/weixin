@@ -1,0 +1,29 @@
+/* pages/index/index.wxss */
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.detail{
+  display: flex;
+  flex-direction: column;
+  width:100%; 
+}
+.bar{
+  display: flex;
+  flex-direction: row;
+  margin:20rpx 0;
+}
+.box{
+  text-align: center;
+  width: 33.3%;
+}
+image{
+  width: 300rpx;
+}
+text{
+  color:#3c5f81;
+  font-size: 80rpx;
+}
